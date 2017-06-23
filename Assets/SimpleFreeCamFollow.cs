@@ -6,7 +6,7 @@ public class SimpleFreeCamFollow: MonoBehaviour {
 
 	Camera cam;
 	public Transform target;
-	public float height;
+	[SerializeField] private float height;
 	public float maxDistance;
 
 	private float distance;
